@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="py-5">
+    <h2 class="text-center"> Age Calculator </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 mx-auto">
+                    <div class=".card">
+                        <div class="card-body">
+                            <form id="age-cal-form">
+                                <input type="date" id="bod" class="form-control">
+                                <input type="submit" value="Check age" class="  mt-2 btn-primary btn">
+                            </form>
+                            <p id="age-result"></p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product section  -->
+<section class="bg-six py-5">
+    <h2 class="text-center">Product with LS</h2>
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <button class="btn btn-primary" id="add-pro-btn">
+                    Add new product
+                </button>
+
+                <div class="add-product-form card mt-3">
+                    <div class="card-body">
+                        <div class="text-end">
+                            <button class="btn" id="close-add-pro-form">
+                                &times;
+                            </button>
+                        </div>
+                        <form id="add-pro-form">
+                            <div class="form-group">
+                                <input type="text" placeholder="Add title" class="form-control" id="add-title" />
+                            </div>
+                            <div class="form-group mt-1">
+                                <input type="text" placeholder="Image link" class="form-control" id="add-image" />
+                            </div>
+                            <div class="form-group mt-1">
+                                <input type="text" placeholder="Regular price" class="form-control"
+                                    id="regular-price" />
+                            </div>
+                            <div class="form-group mt-1">
+                                <input type="text" placeholder="Sale price" class="form-control" id="sale-price" />
+                            </div>
+                            <div class="form-group mt-1">
+                                <input type="text" placeholder="Discount" class="form-control" id="discount" />
+                            </div>
+                            <div class="form-group mt-1">
+                                <input type="submit" class="btn btn-primary form-control" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <div class="row py-4" id="product-show"></div>
+    </div>
+
+</section>
+
+    <!-- product section  -->
+
+
+
+
+    <!-- Team member section  -->
+    <div class="container py-5">
+    <h2 class="text-center mb-3">Team member with LS</h2>
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <button class="btn btn-primary" id="add-mem-btn">
+                    Add new member
+                </button>
+
+                <div class="add-mem-form card mt-3">
+                    <div class="card-body">
+                        <div class="text-end">
+                            <button class="btn" id="close-add-mem-form">
+                                &times;
+                            </button>
+                        </div>
+                        <form id="add-mem-form">
+                            <div class="form-group">
+                                <input type="text" placeholder="Name" class="form-control" id="mem-title" />
+                            </div>
+                            <div class="form-group mt-1">
+                                <input type="text" placeholder="Image" class="form-control" id="mem-image" />
+                            </div>
+                            <div class="form-group mt-1">
+                                <input type="text" placeholder="Department" class="form-control" id="socail-link" />
+                            </div>
+                            <div class="form-group mt-1">
+                                <input type="text" placeholder="Socail link" class="form-control" id="socail-link" />
+                            </div>
+                            <div class="form-group mt-1">
+                                <input type="submit" class="btn btn-primary form-control" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="row team-show">
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./functions.js"></script>
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script src="./assets/js/all.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
